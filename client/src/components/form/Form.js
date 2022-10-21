@@ -73,7 +73,7 @@ const Form = ({ currentId, setCurrentId }) => {
           value={postData.title}
           onChange={(e) => setPostData({ ...postData, title: e.target.value })}
         />
-        <TextField
+        {/* <TextField
           sx={{ mt: 2 }}
           name="message"
           variant="outlined"
@@ -85,7 +85,7 @@ const Form = ({ currentId, setCurrentId }) => {
           onChange={(e) =>
             setPostData({ ...postData, message: e.target.value })
           }
-        />
+        /> */}
         <TextField
           sx={{ mt: 2 }}
           name="tags"
